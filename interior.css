@@ -1,0 +1,166 @@
+.container{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.596)),
+    url('/imgs/tv-cabinet-gbaf66d7a2_1920.jpg');
+    background-position: center;
+    background-size:cover ;
+    height:100vh;
+    width:100%;
+ }
+
+.navbar
+{  
+    justify-content: space-between;
+    display: flex;
+
+  
+}
+.navbar ul li{
+    display: inline-block;
+    padding:4px;
+    text-align:right;
+    position: relative;
+ }
+ .navbar ul li a{
+      color: azure;
+      text-decoration: none;
+      padding:6px;
+      margin:12px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      
+ }
+
+ h2{
+     color: azure;
+     display: block;
+     padding:2px 12px;
+     font-weight: bold;
+ }
+ .heading
+ {
+    color: azure;
+     text-align: center;
+     position: absolute;
+     top:15rem;
+     left:21rem;
+     font-size: 3rem;
+     margin:2px;
+     text-decoration: none;
+     font-family: Verdana;
+ }
+ #p{
+     text-align: center;
+     position: absolute;
+     top:20rem;
+     width:600px;
+     left:20rem;
+     color: aliceblue;
+     padding: 4px;
+     margin:3px;
+    line-height:24px;
+ }
+ .btn
+ {
+     border:2px solid rgb(36, 226, 195);
+     padding:15px;
+     position:absolute;
+     top:30rem;
+     width:13rem;
+     border-radius: 22px;
+     font-family:sans-serif;
+     font-weight: bold;
+     cursor: pointer;
+     background: transparent;
+     color: aliceblue;
+ }
+ #btn1
+ {
+     left:24rem;
+    
+ }
+ #btn2
+ {
+     left:40rem;
+ }
+ .btn:hover{
+     background-color:turquoise;
+     color:rgb(37, 33, 73)
+     
+ }
+ .navbar ul li::after{
+     content: '';
+     height:2px;
+     width:0%;
+     left:15px;
+     background-color: turquoise;
+     position: absolute;
+     bottom:-10px;
+     transition: 0.5s;
+ }
+ .navbar ul li:hover::after
+ {
+     width:75%;
+ }
+ .container1
+ {
+     display:grid;
+     position: absolute;
+     grid-template-columns: 1fr 1fr 1fr;
+    top:45rem;
+    grid-gap:4rem;
+    color: rgb(10, 32, 51);
+ }
+
+ .imgs
+ 
+ {    
+     position:relative;
+     width:100%;
+     height:100%;
+ }
+ .box
+ {
+     text-align: center;
+     font-weight: bold;
+     color: rgb(3, 13, 22);
+ }
+ .wrapper
+ {  position: absolute;
+    top:99rem;
+    width:100%;
+     background-color:rgba(231, 244, 248, 0.692);
+     color: red;
+     display: grid;
+     height:23rem;
+     grid-template-columns: 1fr 1fr 1fr ;
+ }
+.item
+{   position: relative;
+   top:0rem;
+   height: 23rem;
+   text-align:left;
+   margin:4px;
+   padding:12px;
+   font-style: italic;
+}
+.heading2
+{
+position: relative;
+top:53rem;
+color:rgb(6, 34, 94)
+}
+.p1
+{
+color: navy;
+font-size: 1.5rem;
+
+}
+h3:hover{
+color:rgb(226, 12, 52);
+cursor: pointer;
+
+}
+#blue
+{
+color:rgb(6, 34, 94);
+}
